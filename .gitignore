@@ -1,0 +1,36 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Download or generate these datasets on each computer
+/Toy Example/data/
+
+# Keep final weights and the checkpoint used by test_gan_diffusion.py
+/Toy Example/gan_xt*/generator_epoch_*.pt
+/Toy Example/gan_xt*/discriminator_epoch_*.pt
+!/Toy Example/gan_xt_green/generator_epoch_17.pt
+/Toy Example/gan_xt*/xt_epoch_*.png
+/Toy Example/models/ddpm-shapes-lora/epoch-*/
+
+# Editor and Office temporary files
+~$*
+*.tmp
+.vscode/
+.idea/
+
+# Keep the proposal private until instructor approval
+/docs/proposal.pdf
+/CS680_Proposal*.pdf
+/CS680_Proposal*.docx

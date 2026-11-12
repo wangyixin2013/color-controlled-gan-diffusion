@@ -1,0 +1,13 @@
+# Python 3.12.4 was installed when this file was created.
+# PyTorch CUDA wheels can be installed separately for your GPU.
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.5.2
+Pillow==12.3.0
+diffusers==0.40.0
+peft==0.20.0
+transformers==5.16.1
+accelerate==1.14.0
+safetensors==0.8.0
+huggingface-hub==1.29.0
+matplotlib==3.11.2
