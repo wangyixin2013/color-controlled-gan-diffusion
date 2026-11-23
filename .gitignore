@@ -31,5 +31,5 @@ Thumbs.db
 .idea/
 
 # Local proposal drafts and duplicate exports
-/CS680_Proposal*.pdf
-/CS680_Proposal*.docx
+/*Proposal*.pdf
+/*Proposal*.docx

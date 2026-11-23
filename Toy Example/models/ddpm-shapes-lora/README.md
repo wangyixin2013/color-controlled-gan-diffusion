@@ -9,7 +9,7 @@ tags:
 
 # Synthetic-shapes LoRA pilot
 
-Saved LoRA adapter from the separate synthetic colored-shapes experiment in this CS680 project. It adapts the attention projections of the pretrained CIFAR-10 DDPM UNet.
+Saved LoRA adapter from the separate synthetic colored-shapes experiment in this project. It adapts the attention projections of the pretrained CIFAR-10 DDPM UNet.
 
 The accompanying training script uses rank 8, LoRA alpha 8, no dropout, learning rate `1e-4`, and three epochs on 10,000 generated 32 × 32 images of colored circles, squares, and triangles. These describe the current script settings; complete logs for the saved adapter are not included.
 

@@ -1,6 +1,6 @@
 # Color Control of the GAN-Diffusion Model
 
-**CS680 final project · Yixin Wang · University of Waterloo · Work in progress**
+**Yixin Wang · University of Waterloo · Work in progress**
 
 Can a GAN introduce color control into a noisy intermediate image, and can a frozen diffusion model preserve that control while finishing image generation?
 
@@ -45,8 +45,8 @@ These are saved exploratory outputs, not a controlled benchmark.
 Use Python 3.12. The dependencies in [requirements.txt](requirements.txt) pin the environment recorded on the original computer; they are not a record of every earlier training run. Install a suitable PyTorch CUDA build separately if needed for your GPU.
 
 ```sh
-git clone https://github.com/wangyixin2013/cs680-color-controlled-gan-diffusion.git
-cd cs680-color-controlled-gan-diffusion
+git clone https://github.com/wangyixin2013/color-controlled-gan-diffusion.git
+cd color-controlled-gan-diffusion
 python -m venv .venv
 ```
 
