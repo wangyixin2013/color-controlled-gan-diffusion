@@ -4,7 +4,7 @@
 
 Can a GAN introduce color control into a noisy intermediate image, and can a frozen diffusion model preserve that control while finishing image generation?
 
-This repository contains pilot code, saved pilot checkpoints, and exploratory sample images. **The project proposal is private and will be made public once I receive my instructor's approval.** The current implementation uses a fixed green-color penalty. Conditional control with requested chroma targets and full evaluation are planned work.
+This repository contains the [project proposal (PDF)](docs/proposal.pdf), pilot code, saved pilot checkpoints, and exploratory sample images. The current implementation uses a fixed green-color penalty. Conditional control with requested chroma targets and full evaluation are planned work.
 
 ## Approach
 
@@ -117,6 +117,7 @@ This creates 10,000 colored shape images, trains rank-8 LoRA attention adapters 
 ## Repository contents
 
 ```text
+docs/proposal.pdf                 Project proposal
 requirements.txt                  Recorded dependency versions
 Toy Example/
   train_gan_xt.py                  Fixed-green GAN training
@@ -134,4 +135,4 @@ Toy Example/
   *.png                           Exploratory output images
 ```
 
-Downloaded datasets, generated training data, repeated epoch checkpoints, environment files, caches, and the private proposal are excluded from Git. The base DDPM is downloaded separately.
+Downloaded datasets, generated training data, repeated epoch checkpoints, environment files, and caches are excluded from Git. The base DDPM is downloaded separately.

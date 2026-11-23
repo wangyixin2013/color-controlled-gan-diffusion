@@ -30,7 +30,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Keep the proposal private until instructor approval
-/docs/proposal.pdf
+# Local proposal drafts and duplicate exports
 /CS680_Proposal*.pdf
 /CS680_Proposal*.docx
